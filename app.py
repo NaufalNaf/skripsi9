@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import imblearn
 
 # Load the model
 @st.cache(allow_output_mutation=True)
